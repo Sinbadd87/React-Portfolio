@@ -28,7 +28,7 @@ const SkillsView = () => {
         <h6 className="questions">Motivation?</h6>
         <p>
           I&apos;m eager to create a product that I can &quot;touch&quot;. I
-          like to find a solutions. I receive satisfaction from nicely done
+          like to find solutions. I receive satisfaction from high-level done
           work. I like to learn. Coding consist all of it. That is why I&apos;m
           loving it!
         </p>
