@@ -16,7 +16,7 @@ const ContactView = () => {
           </a>
         </div>
         <div className="contactInfoIcon">
-          <a href="http://www.linkedin.com/in/dmitry-tischenko-29355134">
+          <a href="https://linkedin.com/in/dima-tischenko-29355134">
             <img src={linkedInIcon} alt="" /> <span>Dima Tischenko</span>
           </a>
         </div>
