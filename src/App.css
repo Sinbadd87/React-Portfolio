@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--text-primary);
+    background-color: var(--bg-primary);
+    --text-primary: #FFC805;
+    --text-secondary: #EDB900;
+    --text-light: #EFE5C1;
+    --bg-primary: #0E1010;
+    --bg-secondary: #6D6D6D;
+    --bg-light: #C9C9C9;
+    --light: #e3e3e3;
+    font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width:800px) {
+
+    .skillsContainer,
+    .projectContainer,
+    .navContainer,
+    .footerContainer,
+    .contactContainer,
+    .aboutContainer {
+        padding: 0 1rem;
+    }
+
+    .navContainer {
+        position: sticky;
+        top: 0;
+    }
+}

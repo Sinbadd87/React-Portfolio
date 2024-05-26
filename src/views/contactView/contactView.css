@@ -1,0 +1,41 @@
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 0 6rem;
+    margin-bottom: 1rem;
+}
+
+.contactInfo {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+}
+
+.contactInfoIcon span {
+    text-decoration: underline;
+    color: var(--text-light);
+    margin-left: 0.3rem;
+    margin-bottom: 20px;
+}
+
+.contactInfoIcon a span {
+    color: var(--text-light);
+}
+
+.contactInfoIcon img {
+    height: 50px;
+    transform: translateY(10px);
+}
+
+@media screen and (max-width:800px) {
+    .contactInfo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contactInfoIcon a span {
+        display: none;
+    }
+}

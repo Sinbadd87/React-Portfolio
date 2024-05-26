@@ -1,0 +1,45 @@
+.skillsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 0 6rem;
+}
+
+.elevatorPitch {
+    color: var(--light);
+    border: 2px solid var(--text-primary);
+    border-radius: 25px;
+    padding: 0 2rem;
+    padding-bottom: 1rem;
+}
+
+.elevatorPitch h6 {
+    font-size: 1rem;
+    color: var(--text-light);
+}
+
+.techStack ul {
+    display: flex;
+    gap: 1rem;
+    padding-left: 0;
+    flex-wrap: wrap;
+}
+
+.techStack ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgba(239, 229, 193, 0.5);
+    color: var(--text-primary);
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 25px;
+    border: none;
+}
+
+#techStack {
+    color: var(--light);
+    background: none;
+    padding-left: 0;
+}
